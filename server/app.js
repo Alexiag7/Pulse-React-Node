@@ -5,6 +5,7 @@ import logger from 'morgan';
 import {fileURLToPath} from 'url';
 import cors from 'cors';
 import campaignRouter from './modules/campaign/campaign.routes.js'
+import influencerRouter from './modules/influencer/influencer.routes.js'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -18,6 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/campaign', campaignRouter);
+app.use('/influencer', influencerRouter);
 
 
 // catch 404 and forward to error handler

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: 'Roboto';
+}
+
+main{
+  min-height: calc(100vh - 112px );
+}
+
+main {
+  position: relative;
+  color: white;
+  overflow: hidden;
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/home.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px); 
+  z-index: 0;
+}
+
+
+main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+  pointer-events: none;
+}
+
+main > * {
+  position: relative;
+  z-index: 2;
+}
+
+.padding-y-section{
+  padding-block: 3rem;
+}
+
+.boton {
+  background-color: #f5f5f5;  
+  color: #2e2e2e;            
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  outline: none; 
+
+  &:hover{
+    background-color: #555;  
+  color: #f5f5f5; 
+  }
+}
+
+.boton-dark {
+  background-color: #2e2e2e;  
+  color: #f5f5f5;            
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  outline: none; 
+
+  &:hover{
+    background-color: #f5f5f5;  
+  color: #555; 
+  }
+}
+
+.boton-modal {
+  background-color: #2e2e2e;  
+  color: #f5f5f5;            
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  outline: none; 
+
+  &:hover{
+    background-color: #555;  
+  color: #f5f5f5; 
+  }
+}
+
+
