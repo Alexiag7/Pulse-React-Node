@@ -1,4 +1,4 @@
-# 🚀 Prueba Técnica Node.js
+# 🚀 Prueba Técnica Node.js y React
 
 Proyecto fullstack diseñado para evaluar habilidades tanto en frontend como en backend con tecnologías modernas.
 
