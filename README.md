@@ -49,10 +49,72 @@ La aplicación permite realizar las siguientes acciones:
 
 ---
 
-## 🚀 Instalación
+## 🚀 Despliegue del Proyecto
 
-### 1. Clona el repositorio:
+
+### ✅ 1. Instala Node.js
+Descárgalo desde: [https://nodejs.org](https://nodejs.org)
+
+
+### 🛠️ 2. Instala MySQL y MySQL Workbench
+Descarga e instala desde: [https://dev.mysql.com/downloads/](https://dev.mysql.com/downloads/)
+
+
+### 📦 3. Clona el repositorio
+
+Clona este repositorio en tu PC local y accede a la carpeta del proyecto:
 
 ```bash
-git clone https://github.com/Alexiag7/Prueba-Tecnica-Node-
-cd Prueba-Tecnica-Node-
+git clone https://github.com/Alexiag7/Pulse-React-Node.git
+cd Pulse-React-Node
+```
+
+### 📥 4. Instalar dependencias en el cliente (frontend) y servidor (backend)
+
+Dentro de la carpeta del proyecto, ejecuta el siguiente comando para instalar todas las dependencias necesarias:
+
+```bash
+cd client
+npm install
+```
+
+```bash
+cd server
+npm install
+```
+
+### 🗄️ 5. Crea la base de datos en MySQL
+
+Abre MySQL Workbench
+Ejecuta el script SQL db.sql
+
+### ▶️ 6. Levantar el cliente y el servidor en dos terminales
+
+Para iniciar la aplicación en modo desarrollo, ejecuta el siguiente comando:
+
+```bash
+cd client
+npm run dev
+```
+
+```bash
+cd server
+npm run dev
+```
+
+### 🌐 8. Abre en el navegador
+
+Accede a la app desde:
+http://localhost:5173
+
+---
+
+## 📸 Capturas app
+
+![Pantalla home](screenshots/home.png)
+![Pantalla campañas](screenshots/campaigns.png)
+![Pantalla influencers](screenshots/influencers.png)
+![Pantalla crear campaña](screenshots/createcampaign.png)
+![Pantalla añadir un influencer (validacion influencer repetido)](screenshots/validation.png)
+![Pantalla perfil campañas](screenshots/campaignprofile.png)
+
