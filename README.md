@@ -1,6 +1,6 @@
 # 🚀 Prueba Técnica Node.js y React
 
-Proyecto fullstack diseñado para evaluar habilidades tanto en frontend como en backend con tecnologías modernas. Diseño propio cuando el UI/UX. 
+Proyecto fullstack diseñado para evaluar habilidades tanto en frontend como en backend con tecnologías modernas. Diseño propio cuidando el UI/UX. 
 (Realizado en 4 horas)
 
 ---
